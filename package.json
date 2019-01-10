@@ -1,5 +1,8 @@
 {
   "name": "TheWebsyCo",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "sortablejs": "^1.8.0-rc1"
+  }
 }
