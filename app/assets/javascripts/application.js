@@ -14,10 +14,7 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree
-//= require page.js
-//= require page
 //= require jquery
 //= require jquery_ujs
 
-import 'bootstrap';
 
