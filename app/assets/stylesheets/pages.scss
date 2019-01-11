@@ -26,12 +26,49 @@
 }
 
 
+
+
+.wedo{
+  position: relative;
+  padding-top: 30px;
+  font-size: 30px;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  text-align: center;
+  display: inline-block;
+
+  h1{
+  font-family: Helvetica, Neue !important;
+  font-weight: bold !important;
+  color: #0A1C58;
+  }
+
+  li{
+    text-align:left !important;
+    font-size: 20px !important;
+    margin-bottom:10px;
+    font-weight: 349 !important;
+    padding-left: 150px;
+    margin-bottom: -28px;
+    padding-bottom: 40px;
+    font-weight:bold;
+  }
+
+  p{
+    font-size: 30px !important;
+    margin: 35px;
+    font-weight: 349 !important;
+    // font-weight: lighter !important;
+  }
+}
+
+
 /* Typewriter banner */
 .typewriter {
   font-family: Helvetica, Neue;
   font-weight: bold;
   display: inline-block;
-  color: white;
+  color: #0A1C58;
   padding-top: 20px;
   margin-bottom: 20px;
 }
@@ -82,14 +119,14 @@ main-title hidden {
 
 
 body, html {
-  height: 100%
+  height: 90%
 }
 
 
 
 .bgimg {
   /* Background image */
-  background-image: url('');
+  background-image: url('home.jpeg');
   /* Full-screen */
   height: 100%;
   /* Center the background image */
@@ -103,7 +140,12 @@ body, html {
   /* Add a font */
   font-family: "Courier New", Courier, monospace;
   /* Set the font-size to 25 pixels */
-  font-size: 25px;
+  font-size: 60px;
+  font-weight: bold;
+  h1{
+    font-size: 60px;
+    font-weight: bold;
+  }
 }
 
 /* Position text in the top-left corner */
@@ -127,6 +169,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  font-size: 60px !important;
 }
 
 /* Style the <hr> element */
@@ -134,6 +177,11 @@ hr {
   margin: auto;
   width: 40%;
 }
+
+
+
+
+
 
 
 /* Footer */

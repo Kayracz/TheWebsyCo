@@ -10,41 +10,93 @@
   <!--WE ARE TYPESCRIPT-->
 
   <div class="container">
-  <div class="jumbotron">
+   <!--  <div class="jumbotron"> -->
     <div class="typewriter">
-       <div class="typewriter-text"> We are, WEBSY. Builders, Creators, Dreamers, Game Changers.</div>
+     <div class="typewriter-text"> We are The WEBSY Co.  Builders, Creators, Dreamers, Game Changers.</div>
+   </div>
+   <!--   </div> -->
+ </div>
+
+ <!-- COMING SOON -->
+
+
+ <!DOCTYPE html>
+ <html>
+ <body>
+
+  <div class="bgimg">
+    <div class="topleft">
+    </div>
+    <div class="middle">
+      <h1>COMING SOON</h1>
+      <hr>
+      <p id="demo" style="font-size:60px"></p>
+    </div>
+    <div class="bottomleft">
     </div>
   </div>
+
+  <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 20, 2019 15:37:25").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is over, write some text
+  if (distance < 0) {
+    clearInterval(countdownfunction);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
+
+
+<!-- What we do -->
+<div class= "container">
+ <div class="text-center">
+  <div class="wedo">
+    <h1> WE DEVELOP WEBSITES THAT DO EXACTLY WHAT YOU NEED </h1>
+
+    <p> We specialize in custom web development services, which means that your solution will be tailored to perfectly fit your business.</p>
+
+    <p><li>Our custom websites are created to cater to your unique business needs.</li></p>
+
+    <p> <li>We develop solutions that will grow and evolve together with our clients’ businesses. </li></p>
+
+  </div>
+</div>
 </div>
 
-<!-- COMING SOON -->
+<!-- HOW WE WORK - TIMELINE -->
+<!-- WHAT WE DO -->
 
-<div class="bgimg">
-  <div class="topleft">
-    <p></p>
-  </div>
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <p>10 days</p>
-  </div>
-  <div class="bottomleft">
-  </div>
-</div>
+<!-- OUR SECRET SAUCE -->
 
-
-    <!-- HOW WE WORK - TIMELINE -->
-    <!-- WHAT WE DO -->
-
-    <!-- OUR SECRET SAUCE -->
-
-    <!-- What We Know -->
+<!-- What We Know -->
 
 
 
-
-
-    <!-- Footer -->
+<!-- Footer -->
 
 
 <div class="footer">
