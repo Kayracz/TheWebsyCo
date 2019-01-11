@@ -2,6 +2,43 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 /* Main navbar */
+
+.titleweare{
+  margin-bottom: 10px !important;
+
+  body {
+    background-color: #FF5A5A;
+    height: 100%;
+    font-family: 'tradegothiclt-bold', sans-serif;
+  }
+
+  h1 {
+    font-size: 4em;
+    color: #0A1C58;
+    text-transform: uppercase;
+  }
+
+  span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+}
+
+.titleweare h1 {
+  font-size: 4em;
+  color: #0A1C58;
+  text-transform: uppercase;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: white;
@@ -28,7 +65,7 @@
 
 
 
-.wedo{
+.wedo {
   position: relative;
   padding-top: 30px;
   font-size: 30px;
@@ -38,9 +75,9 @@
   display: inline-block;
 
   h1{
-  font-family: Helvetica, Neue !important;
-  font-weight: bold !important;
-  color: #0A1C58;
+    font-family: Helvetica, Neue !important;
+    font-weight: bold !important;
+    color: #0A1C58;
   }
 
   li{
@@ -142,9 +179,12 @@ body, html {
   /* Set the font-size to 25 pixels */
   font-size: 60px;
   font-weight: bold;
+  text-shadow: 3px 2px white;
   h1{
     font-size: 60px;
     font-weight: bold;
+    text-shadow: white !important;
+    text-shadow: 3px 2px white;
   }
 }
 
