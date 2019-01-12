@@ -3,10 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.4'
 
-
-gem 'pg'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -28,12 +28,6 @@ gem 'turbolinks', '~> 5'
 gem 'jquery-rails'
 
 gem 'bootstrap'
-
-gem 'autoprefixer-rails'
-gem 'bootstrap-sass', '~> 3.3.7'
-gem 'font-awesome-sass', '~> 5.0.9'
-gem 'simple_form'
-
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
