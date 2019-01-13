@@ -6,8 +6,6 @@ body {
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
-
-
 .titleweare{
   margin-bottom: 10px !important;
 
@@ -193,6 +191,7 @@ body, html {
   #demo {
    text-shadow: 6px 3px white;
    color:#0A1C58;
+   font-size: 45px !important;
  }
 }
 
